@@ -1,0 +1,30 @@
+/* Slightly larger content width */
+.page-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+/* Make badges wrap nicely on mobile */
+img[alt*="badge"] {
+  vertical-align: middle;
+  margin-right: 6px;
+  margin-bottom: 6px;
+}
+
+/* Headings spacing */
+h2, h3 {
+  margin-top: 2rem;
+}
+
+/* Make code fences readable */
+pre, code {
+  font-size: 0.95rem;
+}
+
+/* Table scroll on mobile */
+table {
+  display: block;
+  overflow-x: auto;
+  border-collapse: collapse;
+}
