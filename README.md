@@ -1,4 +1,5 @@
 # 🌍 Awesome African AI Datasets
+<link rel="stylesheet" href="assets/custom.css">
 
 A **curated, community-maintained** list of **free and open datasets** for Artificial Intelligence and Machine Learning projects **focused on Africa**.  
 
