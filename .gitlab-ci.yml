@@ -1,0 +1,17 @@
+
+---
+
+## **2️⃣ .gitlab-ci.yml**
+```yaml
+stages:
+  - validate
+
+validate_dataset_entries:
+  stage: validate
+  image: python:3.11
+  script:
+    - pip install requests markdown
+    - python scripts/validate_datasets.py
+  only:
+    - merge_requests
+    - main
