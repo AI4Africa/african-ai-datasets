@@ -1,6 +1,8 @@
 # 🌍 Awesome African AI Datasets
 <link rel="stylesheet" href="assets/custom.css">
 
+[![Website](https://img.shields.io/badge/Site-GitHub%20Pages-blue)]([https://<your-username>.github.io/<your-repo>/](https://ai4africa.github.io.african-ai-dataset/))
+
 A **curated, community-maintained** list of **free and open datasets** for Artificial Intelligence and Machine Learning projects **focused on Africa**.  
 
 Datasets are tagged by **domain**, have Kaggle-style metadata, and are verified to be truly free for research or commercial use (license permitting).  
