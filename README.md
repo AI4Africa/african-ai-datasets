@@ -106,9 +106,6 @@ Datasets are tagged by **domain**, have Kaggle-style metadata, and are verified 
 
 ## 🛰 Geospatial & Agriculture
 
-### Radiant Earth MLHub — African Crop / Land Cover
-![Domain](https://img.shields.io/badge/Domain-Geospatial-green) ![License](https://img.shields.io/badge/License-CC%20BY%204.0-green)
-- **Link**: [https://mlhub.earth](https://mlhub.earth)
 
 ### AfriCultuReS Crop Type Dataset
 ![Domain](https://img.shields.io/badge/Domain-Geospatial-green) ![License](https://img.shields.io/badge/License-Open-green)
