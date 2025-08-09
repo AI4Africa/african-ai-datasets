@@ -93,10 +93,6 @@ Datasets are tagged by **domain**, have Kaggle-style metadata, and are verified 
 - **Size**: ~3.2M images.
 - **Link**: [http://lila.science/datasets/snapshot-serengeti](http://lila.science/datasets/snapshot-serengeti)
 
-### South African Traffic Dataset
-![Domain](https://img.shields.io/badge/Domain-Computer%20Vision-purple) ![License](https://img.shields.io/badge/License-Open-green)
-- **Description**: Images & video of traffic intersections.
-- **Link**: [https://data.csiro.au/](https://data.csiro.au/)
 
 ### African Wildlife Dataset (Kaggle)
 ![Domain](https://img.shields.io/badge/Domain-Computer%20Vision-purple) ![License](https://img.shields.io/badge/License-CC0-green)
