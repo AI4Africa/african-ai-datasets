@@ -25,11 +25,13 @@ jobs:
         run: |
           mkdir -p docs
           # Create a Jekyll front-matter header, then append README.md
+          {
           echo '---' > docs/index.md
           echo 'title: Awesome African AI Datasets' >> docs/index.md
           echo 'layout: default' >> docs/index.md
           echo '---' >> docs/index.md
-          echo '' >> docs/index.md
+          echo '' 
+          } > docs/index.md
           cat README.md >> docs/index.md
 
       - name: Setup Pages
