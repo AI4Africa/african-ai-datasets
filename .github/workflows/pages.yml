@@ -23,16 +23,23 @@ jobs:
 
       - name: Prepare docs directory
         run: |
+          set -euo pipefail
+          if [ ! -f README.md ]; then
+            echo "❌ README.md not found in repository root."
+            exit 1
+          fi
           mkdir -p docs
-          # Create a Jekyll front-matter header, then append README.md
           {
-          echo '---' > docs/index.md
-          echo 'title: Awesome African AI Datasets' >> docs/index.md
-          echo 'layout: default' >> docs/index.md
-          echo '---' >> docs/index.md
-          echo '' 
+            echo '---'
+            echo 'title: Awesome African AI Datasets'
+            echo 'layout: default'
+            echo '---'
+            echo ''
+            cat README.md
           } > docs/index.md
-          cat README.md >> docs/index.md
+
+          echo "✅ docs/index.md created:"
+          head -n 20 docs/index.md
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
